@@ -1,0 +1,303 @@
+ *{
+      padding: 0px;margin: 0px;box-sizing: border-box;
+    }
+    body{
+      background:#f8f9fa;color:#1a1a2e;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+    }
+   header {
+      background-color: white;padding: 15px 20px;width: 100%;box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 15px;display: flex;justify-content:space-between;align-items: center;flex-wrap: wrap;
+    }
+
+    .logo h2 {
+      font-size: 1.8rem;
+    }
+
+    .logo h2 span {
+      color: tomato;
+    }
+
+    nav {
+      flex: 1;text-align: right;
+    }
+
+    .navigation {
+      display: flex;justify-content: flex-end;flex-wrap: wrap;
+    }
+
+    li {
+      list-style: none;
+    }
+
+    li a {
+      text-decoration: none;color: black;padding: 10px 15px;display: block;font-size: 1rem;font-weight: bold;
+    }
+
+    li a:hover {
+      color: tomato;
+    }
+    
+    .hero{
+    padding:4rem 1rem; background: linear-gradient(135deg, rgba(255, 107, 107, 0.1) 0%, rgba(78, 205, 196, 0.1) 100%);
+    }
+    .hero-content{
+      display: flex;align-items: center;justify-content: center;flex-wrap: wrap;margin: auto;max-width: 1100px;
+    }
+    .hero-info{
+      flex: 1;padding: 1rem;min-width: 300px;
+    }
+    .hero-info{
+     font-size: 2rem;margin-bottom: 1rem;line-height: 1.4;
+    }
+    .hero-info p{
+      font-size: 1.1rem;margin-bottom: 1.5rem;color: gray;
+    }
+    .btn{
+      text-decoration: none;background-color: tomato;color: white;padding:10px 20px;border-radius: 20px;transform: all 0.3s ease;display: inline-block;font-size: 16px;
+    }
+    .btn:hover{
+    background-color: gray;transform: translateY(-3px);
+    }
+    .hero-image{
+      flex: 1;text-align: center;padding: 1rem;min-width: 280px;
+    }
+    .hero-image img{
+       width: 350px;border-radius: 10px;transform: rotate(3deg);transition: transform 0.3s ease;box-shadow:rgba(0, 0, 0, 0.2) 0 20px 40px;
+    }
+    .hero-image img:hover{
+      transform: rotate(0deg);
+    }
+
+    .product{
+      padding: 4rem 1rem;
+    }
+    .product h2{
+      text-align: center;font-size: 2rem;margin-bottom: 2rem;
+    }
+    .product h2 span{
+      color: tomato;
+    }
+    .product-grid{
+     display:grid;grid-template-columns: repeat(auto-fit,minmax(220px,1fr));gap: 30px;;max-width: 1100px;margin:0 auto;
+    }
+    .product-card{
+      background-color: white;border-radius: 10px;box-shadow: rgb(0, 0, 0, 0.2)0px 4px 8px;overflow: hidden;transition: transform 0.2s ease;
+    }
+    .product-card:hover{
+      transform: translateY(-10px);
+    }
+    .product-image{
+     overflow: hidden;
+    }
+    .product-image img{
+      width: 100%;height: 200px;object-fit: cover;transition: transform 0.5s ease;
+    }
+    .product-info{
+      padding: 1.5rem
+    }
+    .product-info h3{
+     font-size: 1.3rem;margin-bottom: 0.5rem;
+    }
+    .product-info p{
+      margin-bottom: 1rem;color: gray;
+    }
+   .product-price {
+      display: flex;justify-content: space-between;align-items: center;
+    }
+
+    .price {
+      font-weight: 700;font-size: 1.1rem;color: blue;
+    }
+
+    .shoes{
+      padding:4rem 1rem
+    }
+    .shoes h2{
+       text-align: center;font-size: 2rem;margin-bottom: 2rem;
+    }
+    .shoes h2 span{
+    color: #004ada;
+    }
+    .shoes-grid{
+      display: grid;grid-template-columns: repeat(auto-fit,minmax(200px,1fr));gap: 30px;max-width: 1100px;margin: 0 auto;
+    }
+    .shoes-card{
+      background-color: white;border-radius: 10px;box-shadow: rgb(0, 0, 0, 0.2)0px 4px 8px;transform: all 0.3s ease;
+    }
+    .shoes-card:hover{
+      transform: translateY(-4px);
+    }
+    .shoes-image{
+      overflow: hidden;
+    }
+    .shoes-image img{
+      width: 100%;height: 220px; object-fit: cover;transform: all 0.3s ease;
+    }
+    .shoes-info{
+      flex: 1;padding: 20px;
+    }
+    .shoes-info p{
+      font-size: 1rem;font-weight:600;
+    }
+    .shoes-price {
+      display: flex;justify-content: space-between;align-items: center;margin-top: 20px;
+    }
+    .shoes-price h4{
+      font-size: 2rem; margin-top: -10px;
+    }
+    .shoes-price h4 .price1 {
+      font-weight: 700;font-size: 1.1rem;color:tomato;margin-left: 10px;
+    }
+
+    .price1 {
+      font-weight: 700;font-size: 1.1rem;color:tomato;
+    }
+    .btn1{
+      text-decoration: none;background-color:yellow;color: black;padding:10px 20px;border-radius: 20px;transform: all 0.3s ease;display: inline-block;font-size: 16px;
+    }
+    .btn1:hover{
+    background-color: gray;transform: translateY(-3px);
+    }
+    .men-shoes{
+      padding: 4rem 1rem;background-color: #eee;
+    }
+    .men-shoes h2{
+      text-align: center;font-size: 2rem; margin-bottom: 20px;
+    }
+    .men-shoes h2 span{
+        color: #004ada;
+    }
+
+    .shoes-info h6{
+      text-decoration: underline;font-size: 2rem;
+    } 
+    .sales{
+       padding: 4rem 1rem;background-color: #eee;
+    }
+    .sales h2{
+       text-align: center;font-size: 2rem; margin-bottom: 20px;color: tomato;
+    }
+    .about{
+      padding: 4rem 1rem;
+    }
+    .about h2{
+     text-align: center;font-size: 2rem;
+    }
+    .about h2 span{
+      color: tomato;
+    }
+    .about-info{
+      flex: 1;padding: 20px;
+    }
+    .about-info p{
+    font-size: 20px;text-align: center;
+    }
+
+    .customer{
+      padding: 4rem 1rem;background-color: #eee;
+    }
+    .customer h2{
+      text-align: center;margin-bottom: 20px;font-size: 2rem;
+    }
+    .customer h2 span{
+      color: tomato;
+    }
+    .customer-grid{
+     display: grid;grid-template-columns: repeat(auto-fit,minmax(200px,1fr));gap: 30px;max-width: 1000px;margin: 0 auto;
+    }
+    .customer-card{
+      background-color: white;box-shadow: rgb(0, 0, 0, 0.2)0px 4px 8px;padding: 10px;border-radius: 10px;
+    }
+    .customer-info{
+      flex:1;padding: 20px;
+    }
+    .customer-info p{
+      font-size: 15px;
+    }
+    .customer-card h3{
+     color: tomato;margin-left: 12px;
+    }
+
+    .contact{
+      padding: 4rem 1rem;text-align: center;
+    }
+    .contact h2{
+      font-size: 2rem;text-align: center;margin-bottom: 10px;
+    }
+    .contact h2 span{
+      color: tomato;
+    }
+    .contact-info{
+      flex: 1;padding: 20px;align-items: center;justify-content: center;
+    }
+    .form-group{
+     max-width: 500px;margin: 20px auto;display: flex;flex-direction: column;gap: 15px;
+  
+
+    }
+    .form-group input{
+      width: 100%;padding: 10px;border-radius: 5px;border: 1px solid #ccc;font-size: 20px;
+    }
+    .form-group textarea{
+      width: 100%;padding: 10px;border-radius: 5px;border: 1px solid #ccc;font-size: 20px;
+    }
+    #button{
+      background-color: tomato;color: white;padding: 15px;border: none;border-radius: 10px;width: 42%;
+    }
+
+
+
+    footer {
+      background: #000;color: #fff;text-align: center;padding: 25px 15px;font-size: 0.9rem;
+    }
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .navigation {
+        flex-direction: column;width: 100%;text-align: left;
+      }
+
+      li a {
+        padding: 10px 0;border-bottom: 1px solid #eee;
+      }
+
+      .hero-content {
+        flex-direction: column;text-align: center;
+      }
+
+      .hero-info {
+        padding: 1rem 0;
+      }
+
+      .hero-info h2 {
+        font-size: 1.6rem;
+      }
+
+      .hero-info p {
+        font-size: 1rem;
+      }
+
+      .product-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .logo h2 {
+        font-size: 1.5rem;
+      }
+
+      .btn {
+        padding: 8px 16px;font-size: 14px;
+      }
+
+      .hero-info h2 {
+        font-size: 1.4rem;
+      }
+
+      .product-info h3 {
+        font-size: 1.1rem;
+      }
+    }

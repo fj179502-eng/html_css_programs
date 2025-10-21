@@ -1,0 +1,139 @@
+ *{
+            padding: 0px;margin: 0px;box-sizing: border-box;font-family: Arial, Helvetica, sans-serif;
+        }
+        body{
+         background: #f5f5f5;color: #333;
+        }
+        header{
+          background:#004ad0; ;color: white;text-align: center;padding: 20px 10px;
+        }
+        header h1{
+            font-size: 2.2rem;
+        }
+        header p{
+            font-size: 1.1rem;
+        }
+        .navigation{
+       background: #003580;justify-content:center;flex-wrap: wrap;display: flex;
+        }
+        li{
+          list-style: none;
+        }
+        li a{
+            text-decoration: none;color: white;padding: 20px;display: block;transform: background 1s ease;
+        }
+        li a:hover{
+            color: tomato;
+        }
+
+        .hero{
+         display: flex;align-items: center;justify-content: center;text-align: center;padding: 20px;min-height: 300px;
+        }
+        .hero h1{
+         background-color: gray;color: white;padding: 20px;border-radius: 10px;font-size: 2rem;max-width: 90%;
+        }
+        #about{
+            padding: 40px 5%;margin: auto;max-width: 1200px;
+        }
+        #about h2{
+            margin-bottom: 2rem;color: #004aad;text-align: center;
+        }
+        .about{
+        background-color: white;box-shadow: rgb(0, 0, 0, 0.1)0px 4px 8px;border-radius: 10px;padding: 20px;
+        }
+        .about p{
+            font-size: 1.1rem;
+        }
+
+        #programs{
+         padding: 40px 5%;margin: auto;max-width: 1200px;
+        }
+        #programs h2{
+            color: #004aad;margin-bottom: 2rem;text-align: center;
+        }
+        .program{
+            display: grid;grid-template-columns: repeat(auto-fit,minmax(250px,1fr));gap: 30px;
+        }
+        .program1{
+            background-color: white;padding: 20px;border-radius: 10px;box-shadow: rgb(0, 0, 0, 0.1)0px 4px 8px;
+        }
+        .program1 h3{
+            color: #004aad;text-align: center;margin-bottom: 1rem;
+        }
+        .program1 p{
+            font-size: 1.1rem;line-height: 1.6;
+        }
+
+        #admission{
+         padding: 40px 5%;margin: auto;max-width: 1200px;
+        }
+        #admission h2{
+            color: #004aad;margin-bottom: 2rem;text-align: center;
+        }
+        .admission{
+         background-color: white;border-radius: 10px;box-shadow: rgb(0, 0, 0, 0.1)0px 4px 8px;padding: 20px;
+        }
+        .admission p{
+            font-size: 1.1rem;
+        }
+
+        #contact{
+            padding: 40px 5%;margin: auto;max-width: 1200px;
+        }
+        #contact h2{
+            color: #004aad;text-align: center;margin-bottom: 2rem;
+        }
+        .contact1{
+            background-color: white;padding: 20px;border-radius: 10px;box-shadow: rgb(0, 0, 0, 0.1)0px 4px 8px;
+        }
+        input{
+            width: 100%;border: 1px solid #ccc;border-radius: 5px;font-size: 1rem;padding: 12px;margin:5px 0;
+        }
+        textarea{
+          width: 100%;border: 1px solid #ccc;border-radius: 5px;font-size: 1rem;padding: 12px;margin:5px 0;
+        }
+        button{
+            width: 100%;padding: 12px;margin: 3px;border-radius: 10px;background-color:#004aad; color: white;border:none;
+            font-size:1.1rem;
+        }
+        button:hover{
+            background-color: tomato;
+        }
+        footer{
+            background: #003580;color: white;text-align: center;padding: 20px 10px;margin-top: 10px;
+        }
+        
+        @media (max-width: 768px) {
+    header h1 {
+        font-size: 1.8rem;
+    }
+    header p {
+        font-size: 1rem;
+    }
+    .hero h1 {
+        font-size: 1.6rem;
+        padding: 15px;
+    }
+    section h2 {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .navigation li a {
+        padding: 12px;
+        font-size: 0.95rem;
+    }
+    .hero {
+        padding: 15px;
+        min-height: 200px;
+    }
+    .hero h1 {
+        font-size: 1.3rem;
+    }
+    .about p,
+    .admission p,
+    .program1 p {
+        font-size: 1rem;
+    }
+}

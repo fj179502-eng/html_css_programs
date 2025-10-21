@@ -1,0 +1,152 @@
+ *{
+            padding: 0px;margin: 0px;box-sizing: border-box;
+        }
+        body{
+            background: rgb(165, 111, 232);padding: 20px;min-height: 100vh;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .container{
+            max-width: 1200px;margin: 0 auto;
+        }
+        header{
+             background:lightgray ;margin-bottom: 40px;padding: 20px;border-radius: 10px;text-align: center;box-shadow:rgb(0, 0, 0, 0.2)0px 4px 8px; 
+        }
+        header h2{
+            font-size: 2.5rem;color: #333;margin-bottom: 10px;
+        }
+        header p{
+         color: #585656
+        }
+        .dashboard{
+            padding: 4rem 1rem;
+        }
+        .dashboard-gird{
+            display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap: 20px;
+        }
+        .dashboard-card{
+          background-color: lightgray;padding: 25px;border-radius: 15px;box-shadow:rgb(0, 0, 0, 0.2)0px 4px 8px; 
+        }
+        .dashboard-card h2{
+        color: #2c3e50; margin-bottom: 20px;padding-bottom: 10px;border-bottom: 2px solid #eee;
+        }
+        .dashboard-info{
+             background: #f8f9fa;padding: 10px;border-radius: 8px;display: flex;justify-content: space-between;margin-bottom: 15px;margin-top: 25px;
+        }
+        .dashboard-card h3{
+            margin-top: 25px;
+        }
+        .progress-bar{
+            background: #ecf0f1;height: 10px;border-radius: 5x;margin-top: 5px;overflow: hidden;
+        }
+        .progress{
+            background-color: #00a4ad;width: 42%;height: 100%;
+        }
+
+        .task-panel{
+         background-color: lightgray;padding: 25px;border-radius: 15px;box-shadow:rgb(0, 0, 0, 0.2)0px 4px 8px;   
+        }
+        .task-header{
+            display: flex;align-items: center;justify-content: space-between;margin-bottom: 25px;flex-wrap: wrap;gap: 10px;
+        }
+        .task-header h2{
+            color: #2c3e50;
+        }
+        .filter-operation{
+            display: flex;gap: 10px;
+        }
+        .filter-btn{
+            background: #ecf0f1;padding:10px 15px;border-radius: 10px;border: none;transform: all 0.2s ease;cursor: pointer;
+        }
+        .filter-btn.active{
+             background: #3498db;color: white;padding:10px 15px;border-radius: 10px;border: none;transform: all 0.2s ease;cursor: pointer
+        }
+
+        .task-card{
+        background-color: white;padding: 20px;border-radius: 10px;box-shadow: rgb(0, 0, 0, 3)0px 5px 15px;transition: all 0.3s ease;margin-bottom: 30px;
+        }
+        .task-card:hover{
+            transform: translateY(-5px);
+        }
+        .task-info{
+            display: flex;align-items: center;justify-content: space-between;margin-bottom: 30px;flex-wrap: wrap;gap: 10px;
+        }
+        .task-info h3{
+            font-size: 1.2rem;flex: 1;
+        }
+        .task-info .btn1{
+         color: red;background-color: rgb(252, 183, 183);border: none;border-radius: 10px;padding:8px 12px;font-size: 600;
+        }
+        .task-card p{
+        font-size: 15px;margin-bottom: 15px; color: #585656
+        } 
+        .task-btn{
+            display: flex;justify-content: space-between;align-items: center;flex-wrap: wrap;
+        }
+        .task-btn p{
+            font-size: 15px;margin-right: auto; color: #585656
+        }
+        .btn2{
+          background-color: rgb(25, 196, 25);color: white;padding:10px 15px;border-radius: 10px;border: none;transform: all 0.2s ease;cursor: pointer;;margin-right: 10px;
+        }
+         .btn3{
+         background-color: aliceblue; color: rgb(25, 196, 25);border: none;border-radius: 10px;padding: 8px 14px;cursor: pointer;font-weight: 600;margin-right: 10px;
+        }
+         .btn4{
+         background-color: red;color: white;border: none;border-radius: 10px;padding: 8px 14px;cursor: pointer;font-weight: 600;margin-left: 10px;
+        }
+        .btn5{
+          background-color: rgb(165, 111, 232);color: white;border: none;border-radius: 10px;padding: 15px 20px;cursor: pointer;font-weight: 600; align-items: center;justify-content: center;transform: all 0.3 ease;
+        }
+        .btn1:hover, .btn2:hover, .btn3:hover, .btn4:hover, .btn5:hover, .filter-btn:hover, .filter-btn.filter-btn.active:hover{
+         transform: translateY(-3px);background-color: tomato;
+        }
+         @media (max-width: 768px) {
+      header h2 {
+        font-size: 1.8rem;
+      }
+
+      .dashboard {
+        padding: 1.5rem 0.5rem;
+      }
+
+      .dashboard-info {
+        flex-direction: column;align-items: flex-start;gap: 5px;
+      }
+
+      .task-info,.task-btn {
+        flex-direction: column;align-items: flex-start;
+      }
+
+      .filter-options {
+        justify-content: center;width: 100%;
+      }
+
+      .filter-btn {
+        flex: 1 1 30%;text-align: center;
+      }
+
+      .task-card {
+        padding: 15px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      header h2 {
+        font-size: 1.5rem;
+      }
+
+      .task-info h3 {
+        font-size: 1rem;
+      }
+
+      .btn2,.btn3,.btn4 {
+        width: 100%;text-align: center;
+      }
+
+      .task-btn {
+        gap: 5px;
+      }
+
+      .btn5 {
+        font-size: 1rem;
+      }
+    }

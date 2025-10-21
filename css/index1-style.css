@@ -1,0 +1,253 @@
+ *{
+            padding: 0px;margin: 0px;block-size: border-box;
+        }
+      
+        body{
+            background-color:rgb(243, 240, 240) ;font-family: 'Poppins', sans-serif;max-width: 1900px;margin: 0 auto;
+        }
+        header{
+            background-color: white;padding: 10px;width: 100%;
+        }
+        
+        h2{
+            font-size: 2rem;
+        }
+        h2 span{
+            color: tomato;
+        }
+        .navigation{
+        display: flex;justify-content: center;flex-wrap: wrap;display: fixed;
+        }
+        li{
+        list-style: none;
+        }
+        li a{
+            color: black;padding: 20px;font-size: 1.1rem;text-decoration: none;font-weight: bold;display: block;
+        }
+        li a:hover{
+         color: orange;
+        }
+        
+        .home{
+        padding: 4rem 1rem;background:linear-gradient(rgba(84, 83, 83, 0.6), rgba(65, 64, 64, 0.6)),
+        url('../image/blog/banner.jpg') no-repeat center center/cover;min-height: 200px;color: white;text-align: center;
+        
+        }
+        .info{
+            margin: 10% auto;
+        }
+        .info h1{
+            font-size: 4rem;margin-bottom: 20px;
+        }
+        .info p{
+            font-size: 1.5rem;
+        }
+       
+        
+       .home-grid{
+        display: grid;grid-template-columns: repeat(auto-fit,minmax(220px,1fr));gap: 30px;flex-wrap: wrap;
+        /*display: grid;grid-template-columns: repeat(auto-fit,minmax(220px,1fr));gap: 30px;flex-wrap: wrap;max-width: 1000px;margin: auto;margin-bottom: 30px;*/
+       }
+       .home-card{
+       background-color: white;border-radius: 10px;box-shadow: rgb(0, 0, 0, 0.2)0px 4px 8px;padding: 20px;
+       }
+      .form-group label{
+        font-size: 18px;color: black;font-weight: bold;
+      }
+      .form-group input{
+        width: 75%;padding: 8px;border:none;font-size: 15px;
+      }
+      .btn{
+         background-color: tomato;color: white;padding: 15px 20px;text-decoration: none;font-size: 18px;border-radius: 4px;border: none;cursor: pointer;transform: all 0.3s ease;display: inline-block;margin: 1rem;
+      }
+      .btn:hover{
+      box-shadow: rgb(0, 0, 0, 0.2)0px 5px 15px;transform: translateY(-3px);background-color: orange;
+      }
+      .hero-grid{
+       display: grid;grid-template-columns: repeat(auto-fit,minmax(220px,1fr));gap: 20px;flex-wrap: wrap;max-width: 1000px;margin: 3rem auto;
+      }
+      .hero-card{
+       background-color: white;color: black;border-radius: 10px;box-shadow: rgb(0, 0, 0,  0.2)0px 4px 8px;transform: 0.2s ease;
+      }
+        
+      .hero-card:hover{
+       background-color: tomato;color: white;
+      }
+
+      .hero-image img{
+        width: 100%;object-fit: cover;
+      }
+      .hero-info{
+        flex: 1;padding: 2rem;
+       }
+      .hero-info h3{
+        font-size: 1.5rem;margin-bottom:5px;
+      }
+      .hero-info p{
+        font-size: 18px;
+      }
+
+      .work{
+       margin:2rem;padding: 4rem 1rem
+      }
+      .work-info{
+        text-align: center;
+      }
+      .work-info h2{
+        font-size: 2rem;margin-bottom: 1.3rem;
+      }
+      .work-info p{
+        font-size: 1.3rem;margin-bottom: 2rem;
+      }
+
+      .work-grid{
+         display: grid;grid-template-columns: repeat(auto-fit,minmax(220px,1fr));gap: 20px;flex-wrap: wrap;max-width: 1000px;margin: 3rem auto;
+      }
+      .work-card{
+       background-color: white;color: black;border-radius: 10px;box-shadow: rgb(0, 0, 0,  0.2)0px 4px 8px;transform: 0.2s ease;
+      }
+      .work-card:hover{
+       background-color: tomato;color: white;
+      }
+      .work-icon img{
+       width: 100%;object-fit: cover;
+      }
+      .work-info5{
+         padding: 1.5rem;
+        text-align: center;
+       }
+      .work-info5 h2{
+        font-size:1.9rem;
+      }
+      .work-info5 p{
+        font-size: 15px;font-weight:600px;
+      }
+      
+      .button{
+        color: black;border: 2px solid black;text-decoration: none;border-radius: 10px;padding: 10px 15px;font-size: 18px;display: inline-block;cursor: pointer;margin:1rem;
+      }
+      .button:hover{
+      background-color:white;color: tomato
+      }
+
+      .explore{
+     margin:2rem;padding: 4rem 1rem
+      }
+      .explore1{
+        text-align: center;
+      }
+      .explore1 h2{
+        font-size: 1.9rem;
+      }
+      .explore1 p{
+        font-size: 1rem;margin-bottom: 2rem;
+      }
+
+      .explore-grid{
+        display: grid;grid-template-columns: repeat(auto-fit,minmax(220px,1fr));gap: 20px;flex-wrap: wrap;max-width: 1000px;margin: 3rem auto;
+      }
+      .explore-card{
+        background-color: white;color: black;border-radius: 10px;box-shadow: rgb(0, 0, 0,  0.2)0px 4px 8px;transform: 0.2s ease;
+      }
+      .explore-image{
+        overflow: hidden;
+      }
+       .explore-image img{
+        width:100%; height: 220px; object-fit: cover;
+      }
+      .explore-info{
+        flex: 1;padding: 2rem;
+       }
+      .explore-info h2{
+        font-size:1.1rem;
+      }
+      .explore-explore p{
+        font-size: 15px;font-weight:600px;
+      }
+      .explore-card p span{
+        color: tomato;
+      }
+      .image1{
+      display: flex;padding:2rem
+      }
+      .image1 img{
+       width: 50px;
+      }
+      .image1 h3{
+        font-size: 15px;color: rgb(180, 187, 192);padding:2px;
+      }
+      .btn1{
+        color: red;text-decoration: none;font-size: 18px;padding: 10px 15px;display: inline-block;margin: 1rem;transform: all 0.3s ease;
+      }
+      .btn1:hover{
+       color: gray;transform: translateY(-10px);
+      }
+
+      .review{
+     margin:2rem;padding: 4rem 1rem
+      }
+      .review1{
+        text-align: center;
+      }
+      .review1 h2{
+        font-size: 1.9rem;
+      }
+      .review1 p{
+        font-size: 1rem;margin-bottom: 2rem;
+      }
+
+      .review-grid{
+        display: grid;grid-template-columns: repeat(auto-fit,minmax(220px,1fr));gap: 20px;flex-wrap: wrap;max-width: 1000px;margin: 3rem auto;
+      }
+      .review-card{
+        background-color: white;color: black;border-radius: 10px;box-shadow: rgb(0, 0, 0,  0.2)0px 4px 8px;transform: 0.2s ease;
+      }
+
+      .review-image{
+        display: flex;padding:2rem
+      }
+      .reivew-image img{
+        width: 50px;
+      }
+      .review-image h3{
+        font-size: 1.5rem;margin: 10px;
+      }
+      .review-info{
+       font-size:1.1rem;padding: 20px;
+      }
+      .review-info p{
+        font-size: 15px
+      }
+
+      .section1{
+         padding: 4rem 1rem;text-align: center;
+      }
+      .info2{
+        padding: 20px;flex: 1;text-align: center;
+      }
+      .info2 h2{
+        font-size: 2rem;margin-bottom: 1.5rem;
+      }
+      .info2 p{
+        font-size: 1rem;
+      }
+      .info2 .form-group input{
+        width: 80%;padding: 15px;font-size: 16px;margin-top: 1rem;  border-radius: 5px;border: 1px solid #ddd;
+      
+      }
+      footer{
+        background-color: white;padding: 20px 40px;display: flex;justify-content: space-between;align-items: center;flex-wrap: wrap;border: 1px solid #ddd;
+      }
+      footer p{
+        font-size: 16px;color: #333;
+      }
+      footer .foot{
+        display: flex;align-items: center;gap: 10px;color: black;
+      }
+      
+      footer .foot img {
+      width: 30px;height: 30px;object-fit: contain;cursor: pointer;transition: transform 0.3s ease;
+     }
+     footer .foot img:hover {
+      transform: scale(1.1);
+    }
